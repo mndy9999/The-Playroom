@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4936095095635974918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4936095095635974913}
+  - component: {fileID: 4936095095635974912}
+  - component: {fileID: 4936095095635974919}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4936095095635974913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4936095095635974918}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.7, y: 1.5, z: -4.782969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4936095095635974912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4936095095635974918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ed44859f1ead80468d3620eea617094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: Jump
+    Clip: {fileID: 8300000, guid: 366a63973ef947d49b80af575c3b5710, type: 3}
+    Volume: 0.01
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Spikes
+    Clip: {fileID: 8300000, guid: 7a41bf2d308f77747bab918b0b1157be, type: 3}
+    Volume: 0.01
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: MenuTheme
+    Clip: {fileID: 8300000, guid: 2a03dfe5ec2ddbc409b2add46d9aeaf1, type: 3}
+    Volume: 0.01
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: MainTheme
+    Clip: {fileID: 8300000, guid: 59798aae563d3ec4fb1ffcf0639d23b0, type: 3}
+    Volume: 0.01
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: BattleTheme
+    Clip: {fileID: 8300000, guid: db02ab162e72b89408583b6809875617, type: 3}
+    Volume: 0.01
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Spin
+    Clip: {fileID: 8300000, guid: e9ee0b72eaf47ef48845b11572178313, type: 3}
+    Volume: 0.01
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: Switch
+    Clip: {fileID: 8300000, guid: fb862c582be1b0341b061e66c84a2c72, type: 3}
+    Volume: 0.05
+    Loop: 0
+    Source: {fileID: 0}
+  - Name: OutroTheme
+    Clip: {fileID: 8300000, guid: 2b5231adc3d43904dab672665c05a356, type: 3}
+    Volume: 0.01
+    Loop: 1
+    Source: {fileID: 0}
+  - Name: Crash
+    Clip: {fileID: 8300000, guid: 92c5e4ab422eb874eb225d374c0dd9e8, type: 3}
+    Volume: 0.01
+    Loop: 0
+    Source: {fileID: 0}
+  Volume: 5
+--- !u!114 &4936095095635974919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4936095095635974918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be401097df7420844814ee93ddb31c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
